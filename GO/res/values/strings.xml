@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GO</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <!--main page-->
+    <string name="UserId">User Id</string>
+    <string name="LoginMe">Login Me</string>
+    <string name="ForgotUserId">Forgot User ID?</string>
+    <string name="RegisterAccount">Register your account!</string>
+    <string name="Home">Home</string>
+    
+    <!--login page-->
+    <string name="LoginTo">Login your account</string>
+    <string name="UserID">User ID</string>
+    <string name="Password">Password</string>
+    <string name="Login">LOGIN</string>
+    <string name="Cancle">CANCLE</string>
+    <string name="ForgotPassword">Forgot Password?</string>
+
+    <!-- forgot User Id -->
+    <string name="ForgotUI">Forgot User ID</string>
+    <string name="Detial">Enter the information below in order for us to send you an email with your user id.</string>
+    <string name="CardNumber">Card Number*</string>
+    <string name="CardNumberInput">Card Number</string>
+    <string name="CVV">CVV*</string>
+    <string name="CVVInput">CVV</string>
+    <string name="Submit">SUBMIT</string>
+    
+    <!-- register -->
+    <string name="CreaterNewUser">Create New User</string>
+    <string name="CreaterUserID">Create User ID*</string>
+    <string name="CreaterPwd">Create Password*</string>
+    <string name="ConfirmPwd">Confirm Password*</string>
+    <string name="Email">Email*</string>
+    <string name="ConfirmEmail">Confirm Email*</string>
+    
+    <string name="Detailc1">Your User ID must consist of 8 to 10 alphanumeric characters (letters and/or numbers).</string>
+    <string name="Detailc2">Your Password must be 9 to 16 alphanumeric characters (letters and numbers) and include all of the following:</string>
+    <string name="Detailc3">One or more uppercase letters</string>
+    <string name="Detailc4">One or more lowercase letters</string>
+    <string name="Detailc5">One or more numbers</string>
+    <string name="Detailc6">Symbols are optional.</string>
+    <string name="Detailc7">Not be the same password you have used for this account in the past </string>
+    
+    <!--forgot password-->
+    <string name="ForgotPwd">Forgot Password</string>
+    <!-- customer -->
+    <string name="CustomerInfo">Customer Information</string>
+    <string name="Name">Name</string>
+    <string name="Address">Address</string>
+    <string name="CN">Card Number</string>
+    <string name="Status">Status</string>
+    <string name="ID">Issue Date</string>
+    <string name="ED">Expire Date</string>
+    <string name="CB">Cash Balance</string>
+    <string name="Total">Total</string>
+    <string name="moc">Method of Contact</string>
+    <string name="el">Email</string>
+    <string name="phone">Phone</string>
+    <string name="SMS">SMS</string>
+    <string name="CardAndBalance">Cards and Balances</string>
+    <string name="AutoMatedDN">Automated Deposit Notification</string>
+
+    <string name="Menu">Menu</string>
+    <string name="LoginOut">Login Out</string>
+    <string name="Back">Go Back</string>
+
+    <string name="Transaction">Transaction History</string>
+
+</resources>

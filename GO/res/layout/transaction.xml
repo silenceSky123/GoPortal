@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:weightSum="1"
+                android:background="@color/white"
+                android:gravity="center">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:text="@string/Transaction"/>
+
+    <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray"
+            />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:background="@color/backgroud"
+            android:textSize="18sp"
+            android:layout_gravity="center_vertical|left"
+            android:id="@+id/TransactionCard"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:background="@color/backgroud"
+            android:textSize="18sp"
+            android:gravity="center_vertical|left"
+            android:id="@+id/TransactionBalance"/>
+    <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray"
+            />
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:id="@+id/scrollView">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/scrollLine">
+
+    </LinearLayout>
+
+    </ScrollView>
+
+    <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray"
+            />
+    <Button
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/Back"
+            android:background="@color/Button"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:id="@+id/Return"/>
+</LinearLayout>

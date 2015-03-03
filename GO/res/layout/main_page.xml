@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:weightSum="1"
+              android:background="@color/white"
+              android:gravity="center">
+    <ImageView
+            android:layout_width="140dp"
+            android:layout_height="90dp"
+            android:contentDescription="@string/app_name"
+            android:background="@drawable/go"
+            />
+    <EditText
+            android:layout_width="200dp"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/UserId" 
+            android:layout_weight="0.05"
+            android:hint="@string/UserId"
+            android:singleLine="true"
+            android:background="@drawable/setbar_bg"
+            android:textColor="@color/gray"
+            android:textSize="15sp"
+            android:gravity="center"/>
+
+    <Button
+            android:layout_width="200dp"
+            android:layout_height="26dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/LoginMe"
+            android:background="@color/Button"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:id="@+id/btnLogin"/>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_width="200dp"
+            android:gravity="center_vertical|left">
+       <ImageView
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:contentDescription="@string/app_name"
+                android:background="@drawable/arrow_blue"/>
+        <TextView
+                android:layout_width="125dp"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="@string/ForgotUserId"
+                android:textColor="@color/forgotLink"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:id="@+id/forgotUserId"/>
+    </LinearLayout>
+    
+    <!-- <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_width="200dp"
+            android:gravity="center_vertical|left">
+       <ImageView
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:contentDescription="@string/app_name"
+                android:background="@drawable/arrow_blue"/>
+        <TextView
+                android:layout_width="170dp"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="@string/RegisterAccount"
+                android:textColor="@color/forgotLink"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:id="@+id/RegisterAccount"/>
+    </LinearLayout> -->
+    
+    <ImageView
+                android:layout_width="200dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="10dp"
+                android:contentDescription="@string/app_name"
+                android:background="@drawable/register"
+                android:id="@+id/register"/>
+    
+
+    <Button
+            android:layout_width="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="20dp"
+            android:gravity="center"
+            android:text="@string/Home"
+            android:background="@color/Button"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:id="@+id/Home"/>
+
+</LinearLayout>
+

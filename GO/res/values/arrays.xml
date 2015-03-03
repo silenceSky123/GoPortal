@@ -1,0 +1,8 @@
+<resources>
+    <string-array name="menu">
+        <item>menu1</item>
+        <item>menu2</item>
+        <item>menu3</item>
+        <item>menu4</item>
+    </string-array>
+</resources>
